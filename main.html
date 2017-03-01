@@ -19,12 +19,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">About me</a>
+      <a class="navbar-brand" href="main.html">About me</a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
+    <d class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="active"><a href="main.html">Home</a></li>
+        <li><a  href="#myModal" role="button" class="btn" data-toggle="modal">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a class="b" onclick="show('block')"><span class="glyphicon glyphicon-log-in" ></span> Login</a></li>
@@ -32,8 +32,26 @@
     </div>
   </div>
 </nav>  
-
-
+  <div class="container">        
+			<div class="top">            
+            <div id="content" >
+            <div id="profile"> 
+                	<div class="about">
+                    	<div class="photo-inner"><img src="" height="186" width="153" /></div>
+                        <h1>BOGDAN GLOVA</h1>
+                        <h3>WEB DEVELOPER</h3>
+                        <p>I`m a student in TNTY on facultaiv program ingenering . My skill in programing not very big but i want up here.</p>
+                    </div>
+                  
+                	<ul class="personal-info">
+						<li><label>Name</label><span>Bogdan Glova</span></li>
+                        <li><label>Date of birth</label><span>November 30.11.1997</span></li>
+                        <li><label>Address</label><span>Ternopil Geroev Krut 6/89</span></li>
+                        <li><label>Email</label><span>bogdanglova2014@gmail.com</span></li>
+                        <li><label>Phone</label><span>+38(06)73-83-208</span></li>
+                    </ul>
+                </div>
+                   
 <div onclick="show('none')" id="wrap"></div>
 			<div id="window">
 			<img class="close" onclick="show('none')" src="http://sergey-oganesyan.ru/wp-content/uploads/2014/01/close.png">
@@ -77,8 +95,8 @@
     </div>
   </div>
   <div class="progress">
-    <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-      |JavaScript(70%)
+    <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+      |JavaScript(80%)
     </div>
   </div>
   <div class="progress">
@@ -87,14 +105,32 @@
     </div>
   </div>
   <div class="progress">
-    <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-      C#(80%)
+    <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+      C#(50%)
     </div>
   </div>
 </div>
+  </div>
+			</div>
+  </div>
+<div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 class="main-heading"><span>Contact info</span></h3>
+  </div>
+  <div class="modal-body">
+   <ul>
+     <li>Ternopil Geroev Crut 6/89<br /><br /></li>
+     <li>Email: bogdanglova2014@gmail.com</li><p></p>
+     <li><button type="button" class="btn btn-default"> <a href="https://vk.com/matherfucker8">VK</button></li>
+     </ul>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div>
 <footer class="container-fluid text-center">
-  <p>Footer Text</p>
+  <p>Create by Bogdan Glova ©</p>
 </footer>
-
 </body>
 </html>

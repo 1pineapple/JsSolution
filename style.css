@@ -2,10 +2,6 @@
       margin-bottom: 0;
       border-radius: 0;
     }
-footer {
-      background-color: white;
-      padding: 25px;
-    }
      #wrap {
 		display: none;
 		opacity: 0.8;
@@ -33,6 +29,11 @@ footer {
 		top: 0;
 		bottom: 0;
 		padding: 16px;
+		   border-radius: 6px;
+    outline: none;
+		border: 1px solid rgba(0,0,0,0.3);
+		box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+		background-clip: padding-box;
 	}
 	
 	.close {
@@ -44,4 +45,98 @@ footer {
     cursor: pointer;
   }
 	
-	
+    #profile {
+		background-image:url(../images/header-shadow.png), url(../images/header-bg.png);
+		background:url(../images/header-bg.png) repeat-x;
+		background-position:center bottom, left top;
+		background-repeat:repeat-x;
+		overflow:hidden;
+		background-color:#fdd42f;		
+	}
+	.about {
+		float:left;
+		margin-top:30px;
+		width:490px;
+		margin-left:20px;
+	}
+	.about .photo-inner {
+		float:left;
+		background:url(../images/photo-inner.png) no-repeat;
+		width:192px;
+		height:212px;
+		padding:12px 0 0 20px;
+	}
+	.about .photo-inner img {
+		background-color:#FFF;
+	}
+	.about h1 {
+		font-weight:900;
+		color:#FFF;
+		line-height:34px;
+		margin-top:8px;
+	}
+	.about h3 {
+		margin-top:5px;
+		font-size:18px;
+		color:#FFF;
+		line-height:18px;
+	}
+	.about p {
+		font-size:14px;
+		margin-top:15px;
+		color:#bc9010;
+		line-height:20px;
+	}
+	.personal-info {
+		float:left;
+		margin-top:30px;
+		width:310px;
+		min-height:230px;
+		margin-left:20px;
+		background:url(../images/personal-info-sep.png) no-repeat left top;
+		padding:30px 0 0 30px;
+	}
+	.personal-info li {
+		font-size:13px;
+		margin-bottom:10px;
+		overflow: hidden;
+	}
+	.personal-info li label {
+		color:#a87f09;
+		background-color:#f4c024;
+		float:left;
+		padding:5px 10px;
+		border-radius: 4px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+	.personal-info li span {
+		float:right;
+		width:175px;
+		color:#a87f09;
+	}
+
+ol, ul {
+	list-style: none;
+}
+.modal {
+	 	width: 500px;
+		height: 330px;
+		margin: 50px auto;
+		display: none;
+		background: #fff;
+		z-index: 200;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		padding: 16px;
+		    border-radius: 6px;
+    outline: none;
+		border: 1px solid rgba(0,0,0,0.3);
+		box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+		background-clip: padding-box;
+}
+
+
